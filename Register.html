@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>   <title> Ai Course Registration 🤖 </title>
+     <link rel="icon" href="aititle.jpeg">
+         <style> body{ background-image:url(Aibg.webp);
+                background-position: center;
+                background-size:cover; } 
+                 .glow {
+      color: #fff;
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #00f,
+                   0 0 20px #00f,
+                   0 0 40px #00f;
+    }
+                </style>
+
+                
+<script>
+  function toggleRadio(radio) {
+    if (radio.checked && radio.wasChecked) {
+      radio.checked = false;
+    }
+    radio.wasChecked = radio.checked;
+  }
+
+  // Reset on page load
+  window.onload = () => {
+    const radios = document.querySelectorAll('input[type=radio]');
+    radios.forEach(r => r.wasChecked = false);
+  };
+</script>
+     </head>
+    <body style="color: white;"> 
+        <center>
+         <h1 style="color: black;"> 🤖 AI WORLD 🦾  </style></h1>
+        <h3> <Span style="color:white; background-color: blue;" class="glow">✨ Welcome to the AI WORLD of sugar 🔥</Span></h3>
+        
+        <hr>
+         <center>
+                <form action="">
+                    <table style="color: black;">
+                        <tr> <td>Name :</td><td></td><td><input type="text" placeholder="Enter your name" ></td></tr>
+                       <tr> <td>Age: </td><td></td><td> <input type="number" min="15" max="40" placeholder="AGE"></td></tr>
+                        <tr><td>Gender </td> <td></td>
+                        <td><input type="radio"name="Gender"> Men  
+                        <input type="radio" name="Gender" > Women
+                        <input type="radio" name="Gender" > Transgender</td> 
+                        </tr>
+                        <tr>
+                            <td>Email: </td><td></td><td><input type="email" placeholder="Enter your mail id"></td>
+                        </tr>
+                        <tr> 
+                            <td> Your Degree </td>
+                            <td></td>
+                            <td>
+                                <select name="course" id="Courseid">
+                                <option value="Bsc,cs">B.sc</option>
+                                <option value="BE">BE any stream</option>
+                                <option value="Btech">B.Tech</option>
+                                <option value="BCA">BCA</option>
+                                <option value="Non it">Others</option>
+                                <option value="text"><input type="text" placeholder="Others"></option>
+                                </select>
+                            </td>
+
+                            
+                        </tr>
+                        <tr> 
+                            <td>Upload Your Resume</td><td></td>
+                            <td><input type="file" ></td>
+                        </tr>
+                        <tr>
+                            
+                            <td> <input type="reset">   <td><td> <input type="submit"> </td></td></td>
+                        </tr>
+                    </table>
+                </form>
+
+                 <hr>
+            <center>
+
+             <a href="https://www.instagram.com/" class="glow"> instagram |</a> 
+            <a href="https://www.facebook.com/" class="glow"> facebook | </a>
+                <a href="Ai.html"  class="glow" >Return to Home page</a>
+
+            </center>
+
+            </center>
+           
+    
+      </center>
+    </body>
+        </html>
